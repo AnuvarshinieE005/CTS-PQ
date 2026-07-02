@@ -1,8 +1,9 @@
-package MockitoExercise1;
+package mockitoexercise1;
 
-import org.junit.Test;
 
-import static org.junit.Assert.assertEquals;
+import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.Mockito.*;
 
 public class MyServiceTest {
@@ -10,7 +11,7 @@ public class MyServiceTest {
     @Test
     public void testExternalApi() {
 
-        ExternalApi mockApi = mock(mockitoexercise1.ExternalApi.class);
+        ExternalApi mockApi = mock(ExternalApi.class);
 
         when(mockApi.getData()).thenReturn("Mock Data");
 
