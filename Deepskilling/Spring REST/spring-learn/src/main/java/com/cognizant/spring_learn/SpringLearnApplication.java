@@ -17,10 +17,10 @@ public class SpringLearnApplication {
 
         SpringApplication.run(SpringLearnApplication.class, args);
 
-        displayCountry();
+        //displayCountry();
     }
 
-    public static void displayCountry() {
+    /*  public static void displayCountry() {
 
         ApplicationContext context =
                 new ClassPathXmlApplicationContext("country.xml");
@@ -31,5 +31,5 @@ public class SpringLearnApplication {
         LOGGER.debug("Country : {}", country);
 
         ((ClassPathXmlApplicationContext) context).close();
-    }
+    } */
 }
