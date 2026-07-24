@@ -1,6 +1,6 @@
 git --version
-git config --global user.name "Dinesh M"
-git config --global user.email "1.dinesh.mr@gmail.com"
+git config --global user.name "Anuvarshinie E"
+git config --global user.email "anuvarshinieelango@gmail.com"
 git config --global --list
 
 git config --global core.editor notepad
@@ -21,7 +21,7 @@ git status
 git add welcome.txt
 git commit -m "Added welcome.txt file"
 
-git remote add origin https://gitlab.com/1.dinesh.mr/gitdemo.git
+git remote add origin https://gitlab.com/AnuvarshinieE005/CTS-PQ.git
 git remote -v
 
 git pull origin master
